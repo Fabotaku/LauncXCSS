@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+   background:url(Imagenes/bg.png) no-repeat center center fixed;
+   background-size:cover;
+   height:40px;
+   width: 400%;
+  font-family: Helvetica;
+    margin:0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu li>a{
+
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+#menu li>a:hover{
+    color: white;
+    background-color: blue;
+}
+#menu>li{
+    float: left;
+    text-align:center
+}
+  
+.Fight{
+    color: blue;
+    text-align: center;
+  }
+.icono{
+  font-size: large;
+  color: white;
+}
+.Columna{
+    text-align:center;
+    font-size: larger;
+    font-style:oblique;
+    color: white;
+  }
+
+.BotonAzul{
+  border: none;
+  color: White;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: blue;
+  border: 1px solid gray;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+}
+.BotonAzul:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+  inset -4px -4px 12px #ffffff;
+ }
+.vacuna{
+  position: relative;
+  width: 30%;
+}
+
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Imagenes/wallpaper.jpg");
+}
+
+.texto{
+color:white;
+}
